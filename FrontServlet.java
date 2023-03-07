@@ -46,8 +46,8 @@ public class FrontServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
 //            out.println("<h1>Servlet FrontServlet at " + request.getContextPath() + "</h1>");
-            out.println("<h1>url " + Utilitaire.infoUrl(request.getRequestURL().toString(), "http://localhost:8080/Framework/")+ "</h1>");
-            out.println("<a href='../'>url " + Utilitaire.infoUrl(request.getRequestURL().toString(), "http://localhost:8080/Framework/")+ "</a>");
+            out.println("<h1>url " + Utilitaire.infoUrl(request.getRequestURL().toString(), "http://localhost:8081/Framework/")+ "</h1>");
+            out.println("<a href='../'>url " + Utilitaire.infoUrl(request.getRequestURL().toString(), "http://localhost:8081/Framework/")+ "</a>");
             out.println("</body>");
             out.println("</html>");
         }
