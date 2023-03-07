@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package framework;
+package utilitaire;
 
 /**
  *
- * @author ITU
+ * @author itu
  */
 public class Utilitaire {
     public static String infoUrl(String url, String nomDomaine) throws Exception {
@@ -32,6 +32,7 @@ public class Utilitaire {
     
     public static void main(String[] args) throws Exception
     {
-        System.out.println(infoUrl("http://localhost:8080/Framework/pizza/porno?cullote", "http://localhost:8080/Framework/"));
+        System.out.println(infoUrl("http://localhost:8081/Framework/pizza/deguster?cullote", "http://localhost:8081/Framework/"));
     }
+
 }
