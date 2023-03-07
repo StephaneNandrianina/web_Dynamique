@@ -3,8 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package framework;
+package etu1851.framework.servlet;
 
+import utilitaire.Utilitaire;
+import etu1851.framework.Mapping;
+import java.util.HashMap;
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
@@ -17,11 +20,11 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author ITU
+ * @author itu
  */
-//@WebServlet(name = "FrontServlet", urlPatterns = {"/*"})
-public class FrontServlet extends HttpServlet {
 
+public class FrontServlet extends HttpServlet {
+    HashMap<String,Mapping> MappingUrls;
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
